@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Banque CSA - Accueil</title>
+    <!-- Partie CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/1c7be7f624.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" id="logo" alt="Logo Banque">
+        <h1 id="titrePage">Accueil</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="fas fa-home fa-2x" alt="Icone d'accueil"></i><br>
+                    Accueil
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fas fa-euro-sign fa-2x" alt="Icone des comptes"></i><br>
+                    Comptes
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fas fa-credit-card fa-2x" alt="Icone Ma Carte"></i><br>
+                    Ma Carte
+                </a>
+            </li>
+            <li>
+                <a href="virements.html">
+                    <i class="fas fa-random fa-2x" alt="Icone Virements"></i><br>
+                    Virements
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <i class="far fa-comment-dots fa-2x" alt="Icone Contact"></i><br>
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Bonjour, Sophie</h2><br>
+
+            <table class="operations">
+                <tr class="nomCompte">
+                    <td class="premiereLigne">
+                        <h3>Compte Courant</h3>
+                    </td>
+                    <td class="solde premiereLigne">
+                        <h3 id="comptePositif">+4852,15</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Salaire</td>
+                    <td class="solde">
+                        <p id="positif">+1200</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td class="solde">
+                        <p id="negatif">-120</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Virement</td>
+                    <td class="solde">
+                        <p id="negatif">-300</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Boulangerie</td>
+                    <td class="solde">
+                        <p id="negatif">-4</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="derniereLigne"></td>
+                    <td class="voirplus derniereLigne">Voir toutes les opérations <i
+                            class="fas fa-arrow-circle-right"></i></td>
+                </tr>
+            </table>
+            <br>
+        </article>
+
+        <article>
+            <div class="raccourcis">
+                <button class="bouton" type="button">
+                    Obtenir mon RIB
+                </button>
+                <button class="bouton" type="button">
+                    Paramètres
+                </button>
+            </div>
+        </article>
+        <br>
+        <article>
+            <h2>Actualité de la banque</h2><br>
+
+            <div class="actualite">
+                <img src="images/actualite.jpg" id="photoActualite" alt="Photo de l'actualité">
+                <div class="titre">
+                    <h3> Votre banque se renouvelle</h3>
+                </div>
+                <div class="date">
+                    <p id="date"> Vendredi 3 décembre 2021</p>
+                </div>
+                <div class="autre">
+                    <p id="lireplus">Lire plus <i class="fas fa-arrow-circle-right"></i></p></i>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+    <footer>
+        <p>CSA | 2021-2022</p>
+    </footer>
+</body>
+
+</html>

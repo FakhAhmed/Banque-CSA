@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Banque CSA - Accueil</title>
+    <!-- Partie CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/1c7be7f624.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="retour">
+            <i class="fas fa-arrow-circle-left fa-2x" aria-hidden="true"></i>
+        </div>
+        <h1 id="titrePage">Faire un virement</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="fas fa-home fa-2x" alt="Icone d'accueil"></i><br>
+                    Accueil
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fas fa-euro-sign fa-2x" alt="Icone des comptes"></i><br>
+                    Comptes
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fas fa-credit-card fa-2x" alt="Icone Ma Carte"></i><br>
+                    Ma Carte
+                </a>
+            </li>
+            <li>
+                <a href="virements.html">
+                    <i class="fas fa-random fa-2x" alt="Icone Virements"></i><br>
+                    Virements
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <i class="far fa-comment-dots fa-2x" alt="Icone Contact"></i><br>
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="haut">
+            <div class="avatar">
+                <img id="photoProfil" src="images/profil.png" alt="Photo de Sophie LaPlace">
+            </div>
+            <div class="nomClient"><p>Pierre Noblia - Compte courant</p><br></div>
+            <div class="choixCompte"><i class="fas fa-chevron-down fa-2x"></i></div>
+            
+        </div>
+        <div class="prix">
+            <table class="choixMontant">
+                <tr>
+                    <td class="montant">
+                        <p>1550.00</p>
+                    </td>
+                    <td><select> type="select">
+                        <option valeur="eur">EUR</option>
+                        <option valeur="dollard">DOLLARD</option>
+                        <option valeur="yuan">YUAN</option>
+                     </input></select></td>
+                </tr>
+            </table>
+        </div>
+        <div class="vers">
+            <div class="compteDestinataire">
+                <p><a id="gris">Vers :</a> &nbsp &nbsp Cedric Etchepare</p>
+            </div>
+                <div class="flecheDestinataire">
+                    <i class="fas fa-chevron-right fa-1x"></i>
+                </div>
+        </div>
+        <div class="choix">
+            <div class="choixduree">
+                <div class="instantané">
+                    <input type="radio" name="choix">Instantané</input>
+                
+                </div>
+                <div class="differe">
+                    <input type="radio" name="choix">Différé</input>
+               
+                </div>
+                <div class="calendrier">
+                    <input type="date"></input>
+                </div>
+                
+            </div>
+        </div>
+        <br>
+        <br>
+        
+    <article>
+            <div class="continuer">
+                <button class="bouton2" type="button">
+                    Continuer
+                </button>
+            </div>
+        </article>
+    </section>
+</body>
+
+</html>
